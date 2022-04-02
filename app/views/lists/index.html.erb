@@ -1,9 +1,9 @@
-<p> Index Page for Lists</p>
+<h1 class="heading-green"> Index Page for Lists</h1>
   <% if @lists.empty? %>
-  <p> Sorry! You haven't created any list yet! </p>
+  <h2> Sorry! You haven't created any list yet! </h2>
   <% else %>
   <h2>Here Are Your Lists</h2>
   <% @lists.each do |list| %>
   <%= list.name %>
   <% end  %>
-<% end  %>
+<% end %>
