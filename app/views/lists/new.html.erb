@@ -1,0 +1,5 @@
+<p>Form to Generate a new List</p>
+<%= simple_form_for @list do |f| %>
+<%= f.input :name, :label => 'Your list name please', :hint => 'no special characters', :placeholder => 'Comedy', :error => 'The name is mandatory' %>
+<%= f.button :submit %>
+<% end %>

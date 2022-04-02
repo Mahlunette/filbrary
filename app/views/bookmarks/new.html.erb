@@ -1,0 +1,5 @@
+<p>Form to Generate a new Bookmark</p>
+<%= simple_form_for [@list, @bookmark]  do |f| %>
+<%= f.input :comment, :label => 'Write a comment about this movie', :hint => 'at least six characters', :placeholder => 'The movie was', :error => 'The length should be at least 6 characters' %>
+<%= f.button :submit %>
+<% end %>

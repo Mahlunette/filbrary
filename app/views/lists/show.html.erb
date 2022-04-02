@@ -1,0 +1,5 @@
+<p>Show Page for a List</p>
+<%= @list.name %>
+<% @list.bookmarks.each do |bookmark| %>
+<%= bookmark.comment %>
+<% end %>
