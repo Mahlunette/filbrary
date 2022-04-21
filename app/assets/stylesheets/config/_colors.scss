@@ -1,13 +1,17 @@
 // basic colors
-$black: #080808;
-$grey: #303030;
+$white: #ffffff;
+$red: #A23F3C;
+$black: #4A463A;
+$beigenav: #E7E3D7;
+$beigebackground: #E7E3D7;
+$grey: #726E62;
+$lightgrey: #EAEAEA;
+
+
+
 
 //background colors
 
-.bg-black {
-	background-color: $black;
-}
-
-.bg-gray {
-	background-color: $grey;
+.bg-beige {
+	background-color: $beigebackground;
 }
