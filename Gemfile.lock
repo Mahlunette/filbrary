@@ -94,6 +94,7 @@ GEM
       sassc (>= 1.11)
     globalid (1.0.0)
       activesupport (>= 5.0)
+    htmlbeautifier (1.4.2)
     http-accept (1.7.0)
     http-cookie (1.0.4)
       domain_name (~> 0.5)
@@ -218,6 +219,7 @@ DEPENDENCIES
   cloudinary (~> 1.16.0)
   dotenv-rails
   font-awesome-sass (~> 5.15)
+  htmlbeautifier
   listen (~> 3.3)
   pg (~> 1.1)
   puma (~> 5.0)
