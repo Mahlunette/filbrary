@@ -6,9 +6,11 @@
   <div class="row row-cols-1 row-cols-md-3 g-4">
     <% @lists.each do |list| %>
       <div class="col">
+      <a href="<%=list_path(list) %>">
         <div class="card" >
           <h5 class="card-title"><%= list.name%></h5>
         </div>
+        </a>
         <!--card-->
       </div>
       <!--col-->
