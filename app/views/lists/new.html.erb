@@ -1,7 +1,6 @@
 <p>Form to Generate a new List</p>
 <%= simple_form_for @list do |f| %>
 <%= f.input :name, :label => 'Your list name please', :hint => 'no special characters', :placeholder => 'Comedy', :error => 'The name is mandatory' %>
-<%= f.label :image %>
-<%= f.file_field :image %>
+<%= f.input :image, as: :file %>
 <%= f.button :submit %>
 <% end %>

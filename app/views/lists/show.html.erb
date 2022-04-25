@@ -1,6 +1,7 @@
 <p>Show Page for a List</p>
 <%= @list.name %>
 <% @list.bookmarks.each do |bookmark| %>
-<%= bookmark.comment %>
+  <%= bookmark.comment %>
 <% end %>
-<%= image_tag(@list.image) %>
+<%= image_tag (@list.image) %>
+<%= cl_image_tag(@list.image.key) %>

@@ -1,20 +1,21 @@
 <h1>Index page for lists</h1>
 <h2>Here are your lists:</h2>
-	<% if @lists.empty? %>
-	<p>Lists are not created yet!!!</p>
-	<% else %>
+<% if @lists.empty? %>
+  <p>Lists are not created yet!!!</p>
+<% else %>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    <% @lists.each do |list| %>
+      <div class="col">
+        <div class="card" >
+          <h5 class="card-title"><%= list.name%></h5>
+        </div>
+        <!--card-->
+      </div>
+      <!--col-->
+    <% end %>
+  </div>
+  <!--row-->
+<% end %>
 
-	<div class="row row-cols-1 row-cols-md-3 g-4">
-		<% @lists.each do |list| %>
-		<div class="col">
-    		<div class="card" >
-
-        	<h5 class="card-title"><%= list.name%></h5>
 
 
-   		</div><!--card-->
-  		</div><!--col-->
-      	<% end %>
-	</div><!--row-->
-
-	<% end %>
