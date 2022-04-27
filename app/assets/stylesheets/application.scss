@@ -21,7 +21,7 @@
  @import "bootstrap/scss/bootstrap";
  @import "font-awesome-sprockets";
  @import "font-awesome";
-
+ @import "components/index";
 
  body {
    background-color: $beigebackground;
@@ -31,3 +31,8 @@
  .container {
    margin: 0 50px;
  }
+
+ .link-button{
+  padding: 20px;
+  background-color: $red;
+}
