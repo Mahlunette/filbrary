@@ -1,15 +1,19 @@
 .bookmark-container {
-  display: grid;
-  grid-template-columns: 40% 60%;
-  gap: 0px 0px;
-  width: 450px;
-  height: 250px;
-  background-color: aqua;
+  margin: 1rem;
+  background-color: #F0F0F0;
+  width: 24vw;
 }
 
 .bookmark-image {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 42vh;
   object-fit: cover;
 }
 
+.fa-circle {
+  font-size: 5px;
+}
+
+.fa-star {
+  color: rgb(232, 169, 12);
+}
