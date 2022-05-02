@@ -2,7 +2,14 @@
   display: grid;
   grid-template-columns: 40% 60%;
   gap: 0px 0px;
-  width: 400px;
-  height: 200px;
+  width: 450px;
+  height: 250px;
   background-color: aqua;
 }
+
+.bookmark-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
